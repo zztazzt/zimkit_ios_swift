@@ -12,7 +12,7 @@ extension MessagesDispatcher: DispatchViewControllerProtocol {
     public func viewController() -> UIViewController? {
         switch self {
         case let .messagesList(id, type, name):
-            return MessagesListVC(with: id, type: type, conversationName: name)
+            return MessagesListVC(conversationID: id, type: type, conversationName: name)
         }
     }
 }

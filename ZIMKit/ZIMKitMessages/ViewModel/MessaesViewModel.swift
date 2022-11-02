@@ -36,7 +36,7 @@ class MessagesViewModel: NSObject {
     var isNoMoreMsg: Bool = false
     var isShowCheckBox: Bool = false
 
-    init(with conversationID: String, _ conversationType: ZIMConversationType) {
+    init(conversationID: String, _ conversationType: ZIMConversationType) {
         self.conversationID = conversationID
         self.conversationType = conversationType
         super.init()

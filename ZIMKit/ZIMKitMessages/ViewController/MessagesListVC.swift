@@ -12,7 +12,7 @@ let tableHeaderHeight = 40.0
 
 open class MessagesListVC: _ViewController {
 
-    lazy var viewModel: MessagesViewModel = MessagesViewModel(with: conversationID, conversationType)
+    lazy var viewModel: MessagesViewModel = MessagesViewModel(conversationID: conversationID, conversationType)
 
     var conversationID: String = ""
     var conversationName: String = ""
@@ -23,7 +23,7 @@ open class MessagesListVC: _ViewController {
     ///   - conversationID: session ID.
     ///   - type: session type.
     ///   - conversationName: session name.
-    public convenience init(with conversationID: String,
+    public convenience init(conversationID: String,
                             type: ZIMConversationType,
                             conversationName: String) {
         self.init()

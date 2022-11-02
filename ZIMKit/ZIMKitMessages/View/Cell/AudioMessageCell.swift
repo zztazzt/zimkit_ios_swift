@@ -116,7 +116,7 @@ class AudioMessageCell: BubbleMessageCell {
             ]
         }
         durationLabel.textColor = message.cellConfig.messageTextColor
-        durationLabel.text = String(format: "%d \"", message.duration)
+        durationLabel.text = String(format: "%d\"", message.duration)
 
         if message.isPlayingAudio {
             startAudioAnimation()
