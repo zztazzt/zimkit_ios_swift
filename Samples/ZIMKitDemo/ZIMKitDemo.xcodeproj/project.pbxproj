@@ -23,9 +23,6 @@
 		8ECFEF1428937E1800117B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECFEF1228937E1800117B19 /* Main.storyboard */; };
 		8ECFEF1628937E1A00117B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECFEF1528937E1A00117B19 /* Assets.xcassets */; };
 		8ECFEF1928937E1A00117B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECFEF1728937E1A00117B19 /* LaunchScreen.storyboard */; };
-		8ECFEF2428937E1A00117B19 /* ZIMKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFEF2328937E1A00117B19 /* ZIMKitDemoTests.swift */; };
-		8ECFEF2E28937E1A00117B19 /* ZIMKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFEF2D28937E1A00117B19 /* ZIMKitDemoUITests.swift */; };
-		8ECFEF3028937E1A00117B19 /* ZIMKitDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFEF2F28937E1A00117B19 /* ZIMKitDemoUITestsLaunchTests.swift */; };
 		9ABE71A0E352845866EE5AAF /* Pods_ZIMKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F591DA0079D428BFDB785560 /* Pods_ZIMKitDemo.framework */; };
 		9EDC7B3A1E050FF1039B27A9 /* Pods_ZIMKitDemo_ZIMKitDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E11E6950CAC42B0C6805A34 /* Pods_ZIMKitDemo_ZIMKitDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -70,10 +67,7 @@
 		8ECFEF1828937E1A00117B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECFEF1A28937E1A00117B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECFEF1F28937E1A00117B19 /* ZIMKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZIMKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ECFEF2328937E1A00117B19 /* ZIMKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIMKitDemoTests.swift; sourceTree = "<group>"; };
 		8ECFEF2928937E1A00117B19 /* ZIMKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZIMKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ECFEF2D28937E1A00117B19 /* ZIMKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIMKitDemoUITests.swift; sourceTree = "<group>"; };
-		8ECFEF2F28937E1A00117B19 /* ZIMKitDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIMKitDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8EF629E72C27D400D8C19852 /* Pods-ZIMKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIMKitDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ZIMKitDemoTests/Pods-ZIMKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F418707C16BB4D4D1A3A657 /* Pods_ZIMKitDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZIMKitDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A83F2323D951A6FAA2F07C /* Pods-ZIMKitDemo-ZIMKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIMKitDemo-ZIMKitDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ZIMKitDemo-ZIMKitDemoUITests/Pods-ZIMKitDemo-ZIMKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,8 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				8ECFEF0B28937E1800117B19 /* ZIMKitDemo */,
-				8ECFEF2228937E1A00117B19 /* ZIMKitDemoTests */,
-				8ECFEF2C28937E1A00117B19 /* ZIMKitDemoUITests */,
 				8ECFEF0A28937E1800117B19 /* Products */,
 				425DAD331CE79FB959248602 /* Pods */,
 				08217A686666BFADF275872D /* Frameworks */,
@@ -240,23 +232,6 @@
 				8ECFEF1A28937E1A00117B19 /* Info.plist */,
 			);
 			path = ZIMKitDemo;
-			sourceTree = "<group>";
-		};
-		8ECFEF2228937E1A00117B19 /* ZIMKitDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8ECFEF2328937E1A00117B19 /* ZIMKitDemoTests.swift */,
-			);
-			path = ZIMKitDemoTests;
-			sourceTree = "<group>";
-		};
-		8ECFEF2C28937E1A00117B19 /* ZIMKitDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8ECFEF2D28937E1A00117B19 /* ZIMKitDemoUITests.swift */,
-				8ECFEF2F28937E1A00117B19 /* ZIMKitDemoUITestsLaunchTests.swift */,
-			);
-			path = ZIMKitDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,7 +513,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ECFEF2428937E1A00117B19 /* ZIMKitDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,8 +520,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ECFEF2E28937E1A00117B19 /* ZIMKitDemoUITests.swift in Sources */,
-				8ECFEF3028937E1A00117B19 /* ZIMKitDemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

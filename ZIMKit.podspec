@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                    = 'ZIMKit'
-  s.version                 = '0.0.2'
+  s.version                 = '0.0.3'
   s.summary                 = 'ZIMKit'
 
   s.description             = 'The ZIMKit written in Swift'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     'ZIMKitResources' => ['ZIMKit/Resources/**/*']
   }
   
-  s.dependency 'ZIM', '2.4.0'
+  s.dependency 'ZIM', '2.4.1'
   s.dependency 'Kingfisher', '7.4.1'
 
 end
